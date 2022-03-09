@@ -13,9 +13,7 @@ function App() {
   }
   if(loading){
     return (
-      <main>
         <Loading/>
-      </main>
     )
   }
   return(

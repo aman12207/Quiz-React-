@@ -55,7 +55,7 @@ const SetupForm = () => {
   else if(list.length>0){
     const {question,correct_answer,incorrect_answers} = list[currentques];
     const RandomNo = Math.floor(Math.random()*4);
-    console.log(RandomNo);
+    // console.log(RandomNo);
     return (
       <section className="quiz">
         <p className="correct-answers">{`correct answers : ${correctans}/${list.length}`}</p>

@@ -58,7 +58,7 @@ const SetupForm = () => {
     // console.log(RandomNo);
     return (
       <section className="quiz">
-        <p className="correct-answers">{`correct answers : ${correctans}/${list.length}`}</p>
+        <p className="correct-answers">{`correct answers : ${correctans}/${currentques}`}</p>
         <article className="container">
           <h2>{question}</h2>
            <div className="btn-container">

@@ -60,7 +60,7 @@ const SetupForm = () => {
       <section className="quiz">
         <p className="correct-answers">{`correct answers : ${correctans}/${currentques}`}</p>
         <article className="container">
-          <h2>{question}</h2>
+        <h2 dangerouslySetInnerHTML={{__html : question}}/>
            <div className="btn-container">
             {
               incorrect_answers && incorrect_answers.map((answer,index)=>{
